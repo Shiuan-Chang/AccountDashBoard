@@ -21,7 +21,7 @@ namespace AccountDashBoard.Pages
         {
             if(currentWindow != null) 
             {
-                currentWindow.Close();
+                currentWindow.Hide();
             }
 
             if (!tempWindow.TryGetValue(windowName, out currentWindow))
